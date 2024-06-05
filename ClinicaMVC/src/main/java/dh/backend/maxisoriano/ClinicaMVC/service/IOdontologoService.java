@@ -6,8 +6,9 @@ import dh.backend.maxisoriano.ClinicaMVC.model.Paciente;
 import java.util.List;
 
 public interface IOdontologoService {
-    Odontologo crearOdontologo(Odontologo odontologo);
-
-    Odontologo buscarPorId(Integer id);
-    List<Odontologo> traerTodosLosOdontologos();
+    Odontologo registrarOdontologo(Odontologo odontologo);
+    Odontologo buscarPorId(int id);
+    List<Odontologo> buscarTodos();
+    void actualizarOdontologo(Odontologo odontologo);
+    void eliminarOdontologo(Integer id);
 }

@@ -3,6 +3,7 @@ package dh.backend.maxisoriano.ClinicaMVC.service;
 import dh.backend.maxisoriano.ClinicaMVC.dao.implementacion.PacienteDaoH2;
 import dh.backend.maxisoriano.ClinicaMVC.model.Domicilio;
 import dh.backend.maxisoriano.ClinicaMVC.model.Paciente;
+import dh.backend.maxisoriano.ClinicaMVC.service.impl.PacienteService;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

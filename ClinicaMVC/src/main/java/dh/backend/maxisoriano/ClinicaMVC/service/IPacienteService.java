@@ -8,8 +8,8 @@ import java.util.List;
 @Service
 public interface IPacienteService {
     Paciente registrarPaciente(Paciente paciente);
-
     Paciente buscarPorId(Integer id);
-
     List<Paciente> buscarTodos();
+    void actualizarPaciente(Paciente paciente);
+    void eliminarPaciente(Integer id);
 }
